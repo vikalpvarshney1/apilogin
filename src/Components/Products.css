@@ -1,0 +1,15 @@
+#products {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
